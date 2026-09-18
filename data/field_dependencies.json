@@ -1,0 +1,19 @@
+{
+  "field_dependencies": [
+    {
+      "source": "Customer.Customer_Status",
+      "target": "Databricks Pipeline",
+      "relationship": "used for customer data processing"
+    },
+    {
+      "source": "Databricks Pipeline.Customer_Status",
+      "target": "Denodo",
+      "relationship": "used in customer virtual view"
+    },
+    {
+      "source": "Denodo.Customer_Status",
+      "target": "Power BI",
+      "relationship": "used in customer analytics report"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "system": "Customer Data Platform",
+  "components": [
+    {
+      "name": "Customer API",
+      "type": "API",
+      "description": "Provides customer information to applications"
+    },
+    {
+      "name": "Customer Database",
+      "type": "Database",
+      "description": "Stores customer master data"
+    },
+    {
+      "name": "Databricks Pipeline",
+      "type": "Data Pipeline",
+      "description": "Processes customer data"
+    },
+    {
+      "name": "Denodo",
+      "type": "Data Virtualization",
+      "description": "Provides virtual data views"
+    },
+    {
+      "name": "Power BI",
+      "type": "Reporting",
+      "description": "Provides customer analytics and reports"
+    }
+  ]
+}

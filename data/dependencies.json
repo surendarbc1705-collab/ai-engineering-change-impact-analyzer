@@ -1,0 +1,24 @@
+{
+  "dependencies": [
+    {
+      "source": "Customer API",
+      "target": "Customer Database",
+      "relationship": "reads from"
+    },
+    {
+      "source": "Databricks Pipeline",
+      "target": "Customer Database",
+      "relationship": "reads from"
+    },
+    {
+      "source": "Denodo",
+      "target": "Databricks Pipeline",
+      "relationship": "consumes data from"
+    },
+    {
+      "source": "Power BI",
+      "target": "Denodo",
+      "relationship": "consumes views from"
+    }
+  ]
+}

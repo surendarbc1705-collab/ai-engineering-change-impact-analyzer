@@ -1,0 +1,25 @@
+{
+  "incidents": [
+    {
+      "id": "INC-101",
+      "change": "Customer schema modification",
+      "impact": "Databricks pipeline failure",
+      "root_cause": "Column mapping mismatch",
+      "resolution": "Updated pipeline mapping"
+    },
+    {
+      "id": "INC-102",
+      "change": "Database version upgrade",
+      "impact": "API connection failure",
+      "root_cause": "Driver compatibility issue",
+      "resolution": "Updated database driver"
+    },
+    {
+      "id": "INC-103",
+      "change": "Customer column modification",
+      "impact": "Reporting data issue",
+      "root_cause": "Downstream view dependency",
+      "resolution": "Updated Denodo view"
+    }
+  ]
+}
