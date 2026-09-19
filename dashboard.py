@@ -79,7 +79,7 @@ def main_app():
             try:
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/analyze",
+                    "https://moms-villages-couples-subaru.trycloudflare.com/analyze",
                     json={
                         "change_description": change_description
                     }
